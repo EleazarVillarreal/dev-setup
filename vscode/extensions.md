@@ -12,4 +12,4 @@
 
 | <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode"><img width="100" src="https://visualstudioexptteam.gallerycdn.vsassets.io/extensions/visualstudioexptteam/vscodeintellicode/1.2.29/1666210748584/Microsoft.VisualStudio.Services.Icons.Default" alt="	
 IntelliCode"> | <h2><a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode">
-IntelliCode</a></h2><p>AI-assisted development.</p> |
+IntelliCode</a></h2>AI-assisted development. |
