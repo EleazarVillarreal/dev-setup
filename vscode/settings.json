@@ -18,6 +18,9 @@
     "[GitHub Dark Default]": {
       "editor.background": "#010409"
     },
+    "[Material Theme Ocean High Contrast]": {
+      "editor.background": "#090B10"
+    },
     "[Night Owl]": {
       "activityBar.border": "#102a44",
       "editor.background": "#000C1D",
