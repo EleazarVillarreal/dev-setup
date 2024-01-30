@@ -4,22 +4,23 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "prettier.requireConfig": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.explorerKind": "external",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
     "[GitHub Dark Default]": {
       "editor.background": "#010409"
     },
     "[Material Theme Ocean High Contrast]": {
-      "editor.background": "#090B10"
+      "editor.background": "#090B10",
     },
     "[Night Owl]": {
       "activityBar.border": "#102a44",
@@ -27,5 +28,7 @@
       "sideBar.background": "#001122",
       "sideBar.border": "#102a44"
     }
-  }
+  },
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.iconTheme": "material-icon-theme"
 }
