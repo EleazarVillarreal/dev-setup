@@ -11,6 +11,9 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "prettier.requireConfig": true,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.explorerKind": "external",
