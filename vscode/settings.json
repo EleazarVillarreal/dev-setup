@@ -11,9 +11,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
   "prettier.requireConfig": true,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.explorerKind": "external",
@@ -26,6 +23,9 @@
     "[Material Theme Ocean High Contrast]": {
       "editor.background": "#090B10"
     },
+    "[JellyFish]": {
+      "editor.background": "#0f0021"
+    },
     "[Night Owl]": {
       "activityBar.border": "#102a44",
       "editor.background": "#000C1D",
@@ -33,6 +33,7 @@
       "sideBar.border": "#102a44"
     }
   },
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right"
 }
