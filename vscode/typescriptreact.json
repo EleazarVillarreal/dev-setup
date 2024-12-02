@@ -6,7 +6,7 @@
 			"",
 			"}",
       "",
-      "export default function ${1:ComponentName}() {",
+      "export function ${1:ComponentName}() {",
       "  return (",
       "    <>",
       "      <h1>${1:ComponentName}</h1>",
@@ -15,5 +15,18 @@
       "}"
     ],
     "description": "Create Typed React Functional Component"
+  },
+  "React Default Functional Page": {
+    "prefix": "rfp",
+    "body": [
+      "export default function ${1:PageName}() {",
+      "  return (",
+      "    <>",
+      "      <h1>${1:PageName}</h1>",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "Create Deafult React Functional Page"
   }
 }
