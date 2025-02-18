@@ -1,4 +1,6 @@
 {
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Dank Mono, Fira Code, Monaco",
   "editor.fontLigatures": true,
@@ -21,7 +23,17 @@
       "editor.background": "#010409"
     },
     "[Material Theme Ocean High Contrast]": {
-      "editor.background": "#090B10"
+      "editor.background": "#090B10",
+      "gitDecoration.addedResourceForeground": "#81B88B",
+      "gitDecoration.conflictingResourceForeground": "#6C6CC4",
+      "gitDecoration.deletedResourceForeground": "#C74E39",
+      "gitDecoration.ignoredResourceForeground": "#8C8C8C",
+      "gitDecoration.modifiedResourceForeground": "#E2C08D",
+      "gitDecoration.stageDeletedResourceForeground": "#C74E39",
+      "gitDecoration.stageModifiedResourceForeground": "#E2C08D",
+      "gitDecoration.submoduleResourceForeground": "#8DB9E9",
+      "gitDecoration.untrackedResourceForeground": "#81B88B",
+      "sideBar.foreground": "#FAF9F6"
     },
     "[Night Owl]": {
       "activityBar.border": "#102a44",
