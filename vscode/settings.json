@@ -9,6 +9,25 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Material Theme Ocean High Contrast]": {            
+        "textMateRules": [
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#FAF9F6"
+                }
+            },
+            {
+                "scope": "support.variable",
+                "settings": {
+                    "foreground": "#F78C6F"
+                }
+            }
+        ],
+        "variables": "#FAF9F6"
+    }
+},
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -42,7 +61,7 @@
       "sideBar.border": "#102a44"
     }
   },
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right"
 }
