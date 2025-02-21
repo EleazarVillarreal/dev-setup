@@ -42,7 +42,8 @@
       "editor.background": "#010409"
     },
     "[Material Theme Ocean High Contrast]": {
-      "editor.background": "#090B10",
+      "editor.background": "#030303",
+      "editor.lineHighlightBackground": "#090B10",
       "gitDecoration.addedResourceForeground": "#81B88B",
       "gitDecoration.conflictingResourceForeground": "#6C6CC4",
       "gitDecoration.deletedResourceForeground": "#C74E39",
