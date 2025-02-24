@@ -1,6 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always"
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -66,6 +67,10 @@
     }
   },
   "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.editor.customLabels.patterns": {
+    "/**/app/**/page.tsx" : "${dirname} - Page",
+    "/**/app/**/layout.tsx" : "${dirname} - Layout"
+  },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right"
 }
