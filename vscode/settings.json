@@ -12,6 +12,25 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Material Theme Ocean High Contrast]": {            
+      "textMateRules": [
+        {
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#FAF9F6"
+            }
+        },
+        {
+            "scope": "support.variable",
+            "settings": {
+                "foreground": "#F78C6F"
+            }
+        }
+      ],
+      "variables": "#FAF9F6"
+    }
+  },
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -29,18 +48,19 @@
       "editor.background": "#010409"
     },
     "[Material Theme Ocean High Contrast]": {
+      "breadcrumb.background": "#030303",
       "editor.background": "#030303",
       "editor.lineHighlightBackground": "#090B10",
       "gitDecoration.addedResourceForeground": "#81B88B",
       "gitDecoration.conflictingResourceForeground": "#6C6CC4",
       "gitDecoration.deletedResourceForeground": "#C74E39",
-      "gitDecoration.ignoredResourceForeground": "#8C8C8C",
       "gitDecoration.modifiedResourceForeground": "#E2C08D",
       "gitDecoration.stageDeletedResourceForeground": "#C74E39",
       "gitDecoration.stageModifiedResourceForeground": "#E2C08D",
       "gitDecoration.submoduleResourceForeground": "#8DB9E9",
       "gitDecoration.untrackedResourceForeground": "#81B88B",
-      "sideBar.foreground": "#FAF9F6"
+      "sideBar.foreground": "#FAF9F6",
+      "tab.activeBackground": "#030303"
     },
     "[Night Owl]": {
       "activityBar.border": "#102a44",
@@ -55,6 +75,6 @@
     "/**/app/**/layout.tsx" : "${dirname} - Layout",
     "/**/components/**/index.tsx" : "${dirname} - Component"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.sideBar.location": "right"
 }
