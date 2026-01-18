@@ -10,36 +10,19 @@
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "[Material Theme Ocean High Contrast]": {            
-      "textMateRules": [
-        {
-            "scope": "variable.parameter",
-            "settings": {
-                "foreground": "#FAF9F6"
-            }
-        },
-        {
-            "scope": "support.variable",
-            "settings": {
-                "foreground": "#F78C6F"
-            }
-        }
-      ],
-      "variables": "#FAF9F6"
-    }
-  },
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "postcss": "css"
   },
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "prettier.requireConfig": true,
-  "terminal.external.osxExec": "Warp.app",
+  "terminal.external.osxExec": "iTerm.app",
   "terminal.explorerKind": "external",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
@@ -47,10 +30,15 @@
     "[GitHub Dark Default]": {
       "editor.background": "#010409"
     },
-    "[Material Theme Ocean High Contrast]": {
+    "[Night Owl]": {
+      "activityBar.border": "#102a44",
+      "editor.background": "#000C1D",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44"
+    }, 
+    "[Tokyo Night]": {
       "breadcrumb.background": "#030303",
-      "editor.background": "#030303",
-      "editor.lineHighlightBackground": "#090B10",
+      "breadcrumb.foreground": "#FAF9F6",
       "gitDecoration.addedResourceForeground": "#81B88B",
       "gitDecoration.conflictingResourceForeground": "#6C6CC4",
       "gitDecoration.deletedResourceForeground": "#C74E39",
@@ -59,22 +47,22 @@
       "gitDecoration.stageModifiedResourceForeground": "#E2C08D",
       "gitDecoration.submoduleResourceForeground": "#8DB9E9",
       "gitDecoration.untrackedResourceForeground": "#81B88B",
-      "sideBar.foreground": "#FAF9F6",
-      "tab.activeBackground": "#030303"
-    },
-    "[Night Owl]": {
-      "activityBar.border": "#102a44",
-      "editor.background": "#000C1D",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44"
+      "editor.background": "#030303",
+      "panel.background": "#030303",
+      "panelTitle.border": "#FAF9F6",
+      "panelTitle.activeForeground": "#FAF9F6",
+      "sideBar.background": "#030303",
+      "tab.activeBackground": "#030303",
+      "terminal.background": "#030303"
     }
   },
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.editor.customLabels.patterns": {
-    "/**/app/**/page.tsx" : "${dirname} - Page",
-    "/**/app/**/layout.tsx" : "${dirname} - Layout",
-    "/**/components/**/index.tsx" : "${dirname} - Component"
+    "/**/app/**/page.tsx": "${dirname} - Page",
+    "/**/app/**/layout.tsx": "${dirname} - Layout",
+    "/**/components/**/index.tsx": "${dirname} - Component"
   },
+  "workbench.colorTheme": "Tokyo Night",
   "workbench.iconTheme": "symbols",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false
 }
