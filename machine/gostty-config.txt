@@ -1,0 +1,55 @@
+# Ghostty Configuration
+# Converted from iTerm2 customizations
+
+# Font Settings
+font-family = "MesloLGS NF"
+font-size = 14
+
+# Window Appearance
+background-opacity = 0.92
+background-blur = 20
+
+# Custom Color Theme (from iTerm2)
+# Background and Foreground
+background = #030b16
+foreground = #e9def2
+
+# Cursor
+cursor-color = #7efba5
+cursor-text = #000000
+
+# Selection
+selection-background = #7efba4
+selection-foreground = #000000
+
+# ANSI Colors (Normal)
+# 0=Black, 1=Red, 2=Green, 3=Yellow, 4=Blue, 5=Magenta, 6=Cyan, 7=White
+palette = 0=#1a3a5e
+palette = 1=#ea4d44
+palette = 2=#88fbd2
+palette = 3=#fcf392
+palette = 4=#3674f0
+palette = 5=#be94e4
+palette = 6=#ec69cf
+palette = 7=#75f9a9
+
+# ANSI Colors (Bright)
+# 8=Bright Black, 9=Bright Red, 10=Bright Green, 11=Bright Yellow
+# 12=Bright Blue, 13=Bright Magenta, 14=Bright Cyan, 15=Bright White
+palette = 8=#63676c
+palette = 9=#eb60ad
+palette = 10=#99fbda
+palette = 11=#faf4b5
+palette = 12=#4f8bf6
+palette = 13=#a782f7
+palette = 14=#ed73d2
+palette = 15=#8df8c2
+
+# Additional Settings for Better Experience
+window-padding-x = 8
+window-padding-y = 8
+
+# Uncomment these if you want to customize further:
+# window-decoration = false  # Remove window title bar
+# window-theme = dark        # Force dark theme
+# shell-integration = detect # Enable shell integration
