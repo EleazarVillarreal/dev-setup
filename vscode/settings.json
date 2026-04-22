@@ -1,4 +1,5 @@
 {
+  "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
   "editor.codeActionsOnSave": {
     "source.fixAll": "always"
   },
@@ -27,6 +28,11 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "workbench.colorCustomizations": {
+    "[Catppuccin Mocha]": {
+      "editor.background": "#11111b",
+      "sideBar.background": "#11111b",
+      "terminal.background": "#11111b"
+    },
     "[GitHub Dark Default]": {
       "editor.background": "#010409"
     },
@@ -61,7 +67,7 @@
     "/**/app/**/layout.tsx": "${dirname} - Layout",
     "/**/components/**/index.tsx": "${dirname} - Component"
   },
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "symbols",
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false
