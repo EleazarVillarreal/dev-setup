@@ -6,7 +6,7 @@ font-family = "MesloLGS NF"
 font-size = 14
 
 # Window Appearance
-background-opacity = 0.92
+background-opacity = 0.60
 background-blur = 20
 
 # Custom Color Theme (from iTerm2)
