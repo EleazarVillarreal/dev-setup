@@ -10,7 +10,6 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
-  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true,
